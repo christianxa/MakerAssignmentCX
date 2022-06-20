@@ -1,0 +1,29 @@
+{
+  "url": "https://christianxavier.ca",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "user": "ghost-174",
+      "password": "UE<H7KdPDaQ8t.Hj/dc3",
+      "database": "sitename_prod"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/var/www/sitename/content"
+  }
+}
