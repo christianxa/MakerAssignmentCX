@@ -8,6 +8,7 @@
 
 2. From inside the terraform directory run
 
+terraform init (if not initialized)
 terraform plan
 terraform apply
 
