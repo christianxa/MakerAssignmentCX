@@ -15,10 +15,9 @@ terraform apply
 1. Make any changes to the templates under ghost_instance_configs and jenkins will update the instance in place
 
 
-###TO DO
+### TO DO
 - setup email (Simple Email Service?) for cronjob
 - implement cron job (command in coammnds.txt)
 - create non-interactive jenkins setup w/groovy scripts
 - setup S3 bucket for backups
 - Setup Route 53
-- 
