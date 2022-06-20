@@ -26,7 +26,7 @@ sudo mysql -uroot -ppassword --execute="ALTER USER 'root'@'localhost' IDENTIFIED
 sudo mkdir -p /var/www/sitename && \
 sudo chown notghost:notghost /var/www/sitename && \
 sudo chmod 775 /var/www/sitename && \
-cd /var/www/sitename
+cd /var/www/sitename && \
 ghost install --no-prompt --enable --start --auto true --process "systemd" --url "https://christianxavier.ca" --db "mysql" --dbhost "localhost" --dbuser "root" --dbpass "password" --dbname "sitename_prod" --sslemail "christian.xavier@live.com" --dir "/var/www/sitename"
 #########################################
 ##########GOLDEN IMAGE COMMANDS##########
